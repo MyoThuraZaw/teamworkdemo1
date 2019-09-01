@@ -13,9 +13,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let storyBoard = UIStoryboard(name: "HomeStoryboard", bundle: nil)
-        let vc = storyBoard.instantiateInitialViewController() as! HomeViewController
-        present(vc,animated:true,completion: nil)
+        
         
     }
     
