@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3BC372EE231B78CF00C9F355 /* Outtro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC372ED231B78CF00C9F355 /* Outtro.storyboard */; };
 		3BC372F0231B78FD00C9F355 /* OuttroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC372EF231B78FD00C9F355 /* OuttroViewController.swift */; };
+		3BC372F3231B818100C9F355 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC372F1231B818100C9F355 /* Main.storyboard */; };
 		4E57E9E8231B78A700C66BDA /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E57E9E7231B78A700C66BDA /* Menu.storyboard */; };
 		4E57E9EA231B796800C66BDA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E57E9E9231B796800C66BDA /* MenuViewController.swift */; };
 		5D230884231B77DD00875A43 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D230883231B77DD00875A43 /* Login.storyboard */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		3BC372ED231B78CF00C9F355 /* Outtro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Outtro.storyboard; sourceTree = "<group>"; };
 		3BC372EF231B78FD00C9F355 /* OuttroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuttroViewController.swift; sourceTree = "<group>"; };
+		3BC372F2231B818100C9F355 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E57E9E7231B78A700C66BDA /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
 		4E57E9E9231B796800C66BDA /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		5D230883231B77DD00875A43 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				E33C29AF231B789800B2620D /* Confirm.storyboard */,
 				E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */,
 				4E57E9E7231B78A700C66BDA /* Menu.storyboard */,
+				3BC372F1231B818100C9F355 /* Main.storyboard */,
 				690C015B231B787600281471 /* HomeStoryboard.storyboard */,
 				EAEBA1D6231B7FDB00149980 /* Main.storyboard */,
 				3BC372ED231B78CF00C9F355 /* Outtro.storyboard */,
