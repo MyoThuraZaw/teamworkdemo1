@@ -13,8 +13,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func LoginBtn(_ sender: UIButton) {
         
-        let LoginVC = UIStoryboard(name: "HomeStoryboard", bundle: nil)
-        let vc = LoginVC.instantiateInitialViewController() as! HomeViewController
+        let navigationCtrl = UIStoryboard(name: "HomeStoryboard", bundle: nil)
+        let vc = navigationCtrl.instantiateInitialViewController() as! UINavigationController
         present(vc, animated: true, completion: nil)
         
         

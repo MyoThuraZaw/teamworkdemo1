@@ -15,7 +15,7 @@ class ConfirmViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Outtro", bundle: nil)
         let outtroVC = storyboard.instantiateInitialViewController() as! OuttroViewController
         
-        present(outtroVC, animated: true, completion: nil)
+        self.navigationController?.pushViewController(outtroVC, animated: true ) 
         
     }
     

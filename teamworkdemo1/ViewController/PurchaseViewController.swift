@@ -15,7 +15,7 @@ class PurchaseViewController: UIViewController {
         
         let storyboard = UIStoryboard(name:"Confirm",bundle:nil)
         let vc = storyboard.instantiateInitialViewController() as! ConfirmViewController
-        present(vc,animated:true,completion: nil)
+      self.navigationController?.pushViewController(vc, animated: true ) 
     }
    
     override func viewDidLoad() {
