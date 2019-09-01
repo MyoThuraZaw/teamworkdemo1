@@ -16,6 +16,11 @@ class LoadingViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        let storyBoard = UIStoryboard(name: "Login", bundle: nil)
+        let vc = storyBoard.instantiateInitialViewController() as! LoginViewController
+        present(vc, animated: true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
