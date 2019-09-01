@@ -20,13 +20,13 @@ class HomeViewController: UIViewController {
     @IBAction func showMenuVC(_ sender: UIButton) {
         let storyBoard = UIStoryboard(name: "Menu", bundle: nil)
         let vc = storyBoard.instantiateInitialViewController() as! MenuViewController
-        present(vc,animated:true,completion: nil)
+      self.navigationController?.pushViewController(vc, animated: true ) 
     }
     
     @IBAction func showPurchaseVC(_ sender: Any) {
         let storyBoard = UIStoryboard(name: "PurchaseStoryboard", bundle: nil)
         let vc = storyBoard.instantiateInitialViewController() as! PurchaseViewController
-        present(vc,animated:true,completion: nil)
+        self.navigationController?.pushViewController(vc, animated: true )
     }
     
 
