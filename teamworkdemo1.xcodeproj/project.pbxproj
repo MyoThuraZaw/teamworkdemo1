@@ -98,7 +98,6 @@
 				EA0FF90E231A39A700C144B2 /* AppDelegate.swift */,
 				EA0FF910231A39A700C144B2 /* ViewController.swift */,
 				EAEBA1D5231B798400149980 /* Storyboards */,
-				EAEBA1D2231B790600149980 /* ViewController */,
 				5D230885231B782A00875A43 /* ViewController */,
 				EA0FF915231A39AA00C144B2 /* Assets.xcassets */,
 				EAEBA1D8231B803F00149980 /* Main.storyboard */,
@@ -106,13 +105,6 @@
 				EA0FF91A231A39AA00C144B2 /* Info.plist */,
 			);
 			path = teamworkdemo1;
-			sourceTree = "<group>";
-		};
-		EAEBA1D2231B790600149980 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		EAEBA1D5231B798400149980 /* Storyboards */ = {
