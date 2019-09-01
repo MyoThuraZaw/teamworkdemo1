@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E33C29B0231B789800B2620D /* Confirm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33C29AF231B789800B2620D /* Confirm.storyboard */; };
+		E33C29B2231B79FC00B2620D /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */; };
 		EA0FF90F231A39A700C144B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF90E231A39A700C144B2 /* AppDelegate.swift */; };
 		EA0FF911231A39A700C144B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF910231A39A700C144B2 /* ViewController.swift */; };
 		EA0FF914231A39A700C144B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0FF912231A39A700C144B2 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E33C29AF231B789800B2620D /* Confirm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Confirm.storyboard; sourceTree = "<group>"; };
+		E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		EA0FF90B231A39A700C144B2 /* teamworkdemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamworkdemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0FF90E231A39A700C144B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA0FF910231A39A700C144B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				EA0FF915231A39AA00C144B2 /* Assets.xcassets */,
 				EA0FF917231A39AA00C144B2 /* LaunchScreen.storyboard */,
 				EA0FF91A231A39AA00C144B2 /* Info.plist */,
+				E33C29AF231B789800B2620D /* Confirm.storyboard */,
+				E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */,
 			);
 			path = teamworkdemo1;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				EA0FF919231A39AA00C144B2 /* LaunchScreen.storyboard in Resources */,
 				EA0FF916231A39AA00C144B2 /* Assets.xcassets in Resources */,
 				EA0FF914231A39A700C144B2 /* Main.storyboard in Resources */,
+				E33C29B0231B789800B2620D /* Confirm.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33C29B2231B79FC00B2620D /* ConfirmViewController.swift in Sources */,
 				EA0FF911231A39A700C144B2 /* ViewController.swift in Sources */,
 				EA0FF90F231A39A700C144B2 /* AppDelegate.swift in Sources */,
 			);
