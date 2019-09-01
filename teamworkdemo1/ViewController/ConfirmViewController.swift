@@ -9,11 +9,21 @@
 import UIKit
 
 class ConfirmViewController: UIViewController {
+    
+    @IBAction func confirmButton_pressed(_ sender: UIButton) {
+        
+        let storyboard = UIStoryboard(name: "Outtro", bundle: nil)
+        let outtroVC = storyboard.instantiateInitialViewController() as! OuttroViewController
+        
+        present(outtroVC, animated: true, completion: nil)
+        
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        
     }
     
 
