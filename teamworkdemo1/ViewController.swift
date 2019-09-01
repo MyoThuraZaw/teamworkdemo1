@@ -12,7 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let storyBoard = UIStoryboard(name: "HomeStoryboard", bundle: nil)
+        let vc = storyBoard.instantiateInitialViewController() as! HomeViewController
+        present(vc,animated:true,completion: nil)
     }
 
 
