@@ -17,6 +17,12 @@ class OuttroViewController: UIViewController {
     }
     
 
+    @IBAction func btnOK(_ sender: UIButton) {
+        
+        let storyBoard = UIStoryboard(name: "Home", bundle: nil)
+        let vc = storyBoard.instantiateInitialViewController() as! HomeViewController
+        present(vc, animated: true, completion: nil)
+    }
     /*
     // MARK: - Navigation
 
