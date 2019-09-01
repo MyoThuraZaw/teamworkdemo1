@@ -16,14 +16,20 @@ class ViewController: UIViewController {
         
 //        let menuStoryboard = UIStoryboard(name: "Menu", bundle: nil)
 //        let vc = menuStoryboard.instantiateInitialViewController() as! MenuViewController
-        
-        let storyBoard = UIStoryboard(name: "Loading", bundle: nil)
-        let vc = storyBoard.instantiateInitialViewController() as! LoadingViewController
-        present(vc, animated: true, completion: nil)
+//
+      
 //
 //        let storyBoard = UIStoryboard(name: "HomeStoryboard", bundle: nil)
 //        let vc = storyBoard.instantiateInitialViewController() as! HomeViewController
 //        present(vc,animated:true,completion: nil)
+        
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        let storyBoard = UIStoryboard(name: "Loading", bundle: nil)
+        let vc = storyBoard.instantiateInitialViewController() as! LoadingViewController
+        present(vc, animated: true, completion: nil)
     }
 
 
