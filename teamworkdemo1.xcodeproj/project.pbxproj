@@ -20,6 +20,7 @@
 		E33C29B2231B79FC00B2620D /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */; };
 		E33C29B5231B808300B2620D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33C29B3231B808300B2620D /* Main.storyboard */; };
 		E8D03E65231B783500115549 /* PurchaseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */; };
+		E8D03E69231B7F9C00115549 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D03E68231B7F9C00115549 /* PurchaseViewController.swift */; };
 		EA0FF90F231A39A700C144B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF90E231A39A700C144B2 /* AppDelegate.swift */; };
 		EA0FF911231A39A700C144B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF910231A39A700C144B2 /* ViewController.swift */; };
 		EA0FF916231A39AA00C144B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0FF915231A39AA00C144B2 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 		E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		E33C29B4231B808300B2620D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PurchaseStoryboard.storyboard; sourceTree = "<group>"; };
+		E8D03E68231B7F9C00115549 /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
 		EA0FF90B231A39A700C144B2 /* teamworkdemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamworkdemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0FF90E231A39A700C144B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA0FF910231A39A700C144B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				4E57E9E9231B796800C66BDA /* MenuViewController.swift */,
 				5D230886231B784700875A43 /* LoginViewController.swift */,
 				3BC372EF231B78FD00C9F355 /* OuttroViewController.swift */,
+				E8D03E68231B7F9C00115549 /* PurchaseViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			files = (
 				5D230887231B784700875A43 /* LoginViewController.swift in Sources */,
 				3BC372F0231B78FD00C9F355 /* OuttroViewController.swift in Sources */,
+				E8D03E69231B7F9C00115549 /* PurchaseViewController.swift in Sources */,
 				E33C29B2231B79FC00B2620D /* ConfirmViewController.swift in Sources */,
 				EA0FF911231A39A700C144B2 /* ViewController.swift in Sources */,
 				4E57E9EA231B796800C66BDA /* MenuViewController.swift in Sources */,
