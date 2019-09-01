@@ -22,11 +22,17 @@
                                 <rect key="frame" x="120" y="280" width="175" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="MENU"/>
+                                <connections>
+                                    <action selector="showMenuVC:" destination="55I-RO-r4x" eventType="touchUpInside" id="h4M-6a-WNe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="igF-Hc-qCl">
                                 <rect key="frame" x="120" y="401" width="175" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="PURCHASE"/>
+                                <connections>
+                                    <action selector="showPurchaseVC:" destination="55I-RO-r4x" eventType="touchUpInside" id="P94-Gi-pLe"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
