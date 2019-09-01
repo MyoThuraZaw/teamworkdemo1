@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5D230884231B77DD00875A43 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D230883231B77DD00875A43 /* Login.storyboard */; };
 		5D230887231B784700875A43 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D230886231B784700875A43 /* LoginViewController.swift */; };
+		E8D03E65231B783500115549 /* PurchaseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */; };
 		EA0FF90F231A39A700C144B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF90E231A39A700C144B2 /* AppDelegate.swift */; };
 		EA0FF911231A39A700C144B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF910231A39A700C144B2 /* ViewController.swift */; };
 		EA0FF914231A39A700C144B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0FF912231A39A700C144B2 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		5D230883231B77DD00875A43 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		5D230886231B784700875A43 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PurchaseStoryboard.storyboard; sourceTree = "<group>"; };
 		EA0FF90B231A39A700C144B2 /* teamworkdemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamworkdemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0FF90E231A39A700C144B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA0FF910231A39A700C144B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				EA0FF915231A39AA00C144B2 /* Assets.xcassets */,
 				EA0FF917231A39AA00C144B2 /* LaunchScreen.storyboard */,
 				EA0FF91A231A39AA00C144B2 /* Info.plist */,
+				E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */,
 			);
 			path = teamworkdemo1;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D230884231B77DD00875A43 /* Login.storyboard in Resources */,
+				E8D03E65231B783500115549 /* PurchaseStoryboard.storyboard in Resources */,
 				EA0FF919231A39AA00C144B2 /* LaunchScreen.storyboard in Resources */,
 				EA0FF916231A39AA00C144B2 /* Assets.xcassets in Resources */,
 				EA0FF914231A39A700C144B2 /* Main.storyboard in Resources */,
