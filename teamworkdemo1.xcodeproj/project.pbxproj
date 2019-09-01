@@ -12,6 +12,8 @@
 		E8D03E65231B783500115549 /* PurchaseStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */; };
 		3BC372EE231B78CF00C9F355 /* Outtro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BC372ED231B78CF00C9F355 /* Outtro.storyboard */; };
 		3BC372F0231B78FD00C9F355 /* OuttroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC372EF231B78FD00C9F355 /* OuttroViewController.swift */; };
+		E33C29B0231B789800B2620D /* Confirm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33C29AF231B789800B2620D /* Confirm.storyboard */; };
+		E33C29B2231B79FC00B2620D /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */; };
 		EA0FF90F231A39A700C144B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF90E231A39A700C144B2 /* AppDelegate.swift */; };
 		EA0FF911231A39A700C144B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF910231A39A700C144B2 /* ViewController.swift */; };
 		EA0FF914231A39A700C144B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0FF912231A39A700C144B2 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PurchaseStoryboard.storyboard; sourceTree = "<group>"; };
 		3BC372ED231B78CF00C9F355 /* Outtro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Outtro.storyboard; sourceTree = "<group>"; };
 		3BC372EF231B78FD00C9F355 /* OuttroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OuttroViewController.swift; sourceTree = "<group>"; };
+		E33C29AF231B789800B2620D /* Confirm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Confirm.storyboard; sourceTree = "<group>"; };
+		E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
 		EA0FF90B231A39A700C144B2 /* teamworkdemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teamworkdemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA0FF90E231A39A700C144B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA0FF910231A39A700C144B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 				EA0FF917231A39AA00C144B2 /* LaunchScreen.storyboard */,
 				EA0FF91A231A39AA00C144B2 /* Info.plist */,
 				E8D03E64231B783500115549 /* PurchaseStoryboard.storyboard */,
+				E33C29AF231B789800B2620D /* Confirm.storyboard */,
+				E33C29B1231B79FC00B2620D /* ConfirmViewController.swift */,
 			);
 			path = teamworkdemo1;
 			sourceTree = "<group>";
@@ -184,6 +190,7 @@
 				EA0FF916231A39AA00C144B2 /* Assets.xcassets in Resources */,
 				EA0FF914231A39A700C144B2 /* Main.storyboard in Resources */,
 				EAEBA1D1231B787000149980 /* Loading.storyboard in Resources */,
+				E33C29B0231B789800B2620D /* Confirm.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +203,7 @@
 			files = (
 				5D230887231B784700875A43 /* LoginViewController.swift in Sources */,
 				3BC372F0231B78FD00C9F355 /* OuttroViewController.swift in Sources */,
+				E33C29B2231B79FC00B2620D /* ConfirmViewController.swift in Sources */,
 				EA0FF911231A39A700C144B2 /* ViewController.swift in Sources */,
 				EA0FF90F231A39A700C144B2 /* AppDelegate.swift in Sources */,
 				EAEBA1D4231B791B00149980 /* LoadingViewController.swift in Sources */,
